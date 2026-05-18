@@ -10,8 +10,8 @@ load_dotenv()
 
 def main():
     print("Hello from langchain-course!")
-    # llm = ChatOpenAI(temperature=0, model_name="gpt-5")
-    llm = ChatOllama(temperature=0, model="gpt-oss:latest")
+    llm = ChatOpenAI(temperature=0, model_name="gpt-5")
+    #llm = ChatOllama(temperature=0, model="gpt-oss:latest")
 
     elon_information = f"""
     Elon Reeve Musk (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman and entrepreneur known for his leadership of Tesla, SpaceX, Twitter, and xAI. Musk has been the wealthiest person in the world since 2025; as of February 2026, Forbes estimates his net worth to be around US$852 billion.
